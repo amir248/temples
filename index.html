@@ -99,7 +99,10 @@
   </main>
 
   <footer>
-    © 2026 Туристический гид по храмам Санкт-Петербурга
+    © <span id="year"></span> Туристический гид по храмам Санкт-Петербурга
   </footer>
+  <script>
+    document.querySelector("#year").innerHTML=new Date().getFullYear();
+  </script>
 </body>
 </html>
