@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Храмы СПб и пригородов</title>
+<style>
+body {margin:0; font-family: Arial; background:#f4ecd8; color:#333;}
+header {background:#d9c7a1; padding:20px; text-align:center;}
+header h1 {margin:0;}
+main {max-width:1100px; margin:20px auto; padding:0 15px;}
+.grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:20px;}
+.card {background:#fffaf0; padding:15px; border-radius:10px; box-shadow:0 3px 8px rgba(0,0,0,0.1);}
+.card h2 {margin-top:0;}
+.card p {font-size:14px;}
+.map {margin-top:30px;}
+iframe {border-radius:10px;}
+footer {margin-top:40px; padding:15px; text-align:center; background:#d9c7a1;}
+</style>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+</head>
+<body>
+
+<header>
+  <h1>Храмы Санкт-Петербурга и пригородов</h1>
+  <p>Путеводитель для туристов</p>
+</header>
+
+<main>
+
+<h2>Храмы Санкт-Петербурга</h2>
+<div class="grid">
+  <div class="card">
+    <h2>Спас на Крови</h2>
+    <p>Один из самых известных храмов СПб с яркими куполами и мозаикой.</p>
+  </div>
+  <div class="card">
+    <h2>Казанский собор</h2>
+    <p>Главный кафедральный собор на Невском проспекте.</p>
+  </div>
+  <div class="card">
+    <h2>Александро-Невская лавра</h2>
+    <p>Исторический монастырь и духовный центр города.</p>
+  </div>
+</div>
+
+<h2>Храмы пригородов СПб</h2>
+<div class="grid">
+  <div class="card">
+    <h2>Спасо-Преображенский собор, Выборг</h2>
+    <p>Красивый храм в Ленинградской области, город Выборг.</p>
+  </div>
+  <div class="card">
+    <h2>Тихвинский монастырь</h2>
+    <p>Главный православный центр Ленинградской области.</p>
+  </div>
+  <div class="card">
+    <h2>Петропавловская церковь, Петергоф</h2>
+    <p>Небольшая, но историческая церковь, расположенная в парках Петергофа.</p>
+  </div>
+</div>
+
+<h2>Петергоф</h2>
+<p>Петергоф — это знаменитый пригород СПб, известный своими дворцами и фонтанами. Здесь есть несколько красивых храмов и часовен, которые стоит посетить туристу:</p>
+<ul>
+  <li>Петропавловская церковь</li>
+  <li>Церковь святого Николая Чудотворца</li>
+  <li>Часовня при Большом дворце Петергофа</li>
+</ul>
+
+<h2>Карта храмов СПб и пригородов</h2>
+<!-- <div class="map">
+  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af7c3b8b5d3f1a9a7b6c5e4d3f2b1c0a9&source=constructor" width="100%" height="500"></iframe>
+</div> -->
+<div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/search/Orthodox%20churches/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Orthodox churches in Saint Petersburg</a><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Saint Petersburg</a><iframe src="https://yandex.ru/map-widget/v1/?display-text=Orthodox%20churches&filter=alternate_vertical%3ARequestWindow&ll=30.334005%2C59.977649&mode=search&sctx=ZAAAAAgBEAAaKAoSCY9WtaSjUD5AEQgB%2BRIq%2BE1AEhIJmQ0yychZ9T8RD9WUZB2O4z8iBgABAgMEBSgKOABAAkgBYjpyZWFycj1zY2hlbWVfTG9jYWwvR2VvdXBwZXIvQWR2ZXJ0cy9DdXN0b21NYXhhZHYvRW5hYmxlZD0xYjpyZWFycj1zY2hlbWVfTG9jYWwvR2VvdXBwZXIvQWR2ZXJ0cy9DdXN0b21NYXhhZHYvTWF4YWR2PTE1YkRyZWFycj1zY2hlbWVfTG9jYWwvR2VvdXBwZXIvQWR2ZXJ0cy9DdXN0b21NYXhhZHYvUmVnaW9uSWRzPVsxLDEwMTc0XWJAcmVhcnI9c2NoZW1lX0xvY2FsL0dlb3VwcGVyL0FkdmVydHMvTWF4YWR2VG9wTWl4L01heGFkdkZvck1peD0xMGoCcnWdAc3MzD2gAQCoAQC9AcHz8EPCAYoB3eyq%2BPQFmrKt29EEmIr1huMFx%2FKZ5APS477hywTfzPD%2F3v39kKwBpLrVugXftff3BLigxfoDr8Wt7KAGidy0iASbzrKMBOO7%2B44E6pPN%2BwTy9%2FKgBtiJ7LoEn6nQgp0Gs%2F%2Bk05UEhPbB8wOpn5WD1gWo0rn3A4Dy4%2FIDge%2BwkQTuzZLqA%2BPNy4MEggIZY2F0ZWdvcnlfaWQ6KDUzNDM2NTE5NzkxKYoCCzUzNDM2NTE5NzkxkgIAmgIMZGVza3RvcC1tYXBzqgIKMTEzOTA2Nzc5NQ%3D%3D&sll=30.334005%2C59.977649&sspn=0.833551%2C0.302423&text=category_id%3A%2853436519791%29&z=10.6" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+</main>
+
+<footer>
+© <span id="year"></span> Туристический сайт | Храмы СПб и Ленобласти
+</footer>
+
+</body>
+<script>
+    document.querySelector("#year").innerHTML= new Date().getFullYear();
+</script>
+</html>
