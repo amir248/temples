@@ -118,8 +118,11 @@ footer {
 </main>
 
 <footer>
-  © 2026 Туристический сайт | Храмы СПб и ЛО
+  © <span id="year"></span> Туристический сайт | Храмы СПб и ЛО
 </footer>
 
 </body>
+<script>
+    document.querySelector("#year").innerHTML= new Date().getFullYear();
+</script>
 </html>
