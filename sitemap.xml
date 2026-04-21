@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Главная страница -->
+  <url>
+    <loc>https://temples.fonolog.ru/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Храмы СПб -->
+  <url>
+    <loc>https://temples.fonolog.ru/article</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Страница 404 (не обязательно индексировать) -->
+  <url>
+    <loc>https://example.com/404</loc>
+    <changefreq>never</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+</urlset>

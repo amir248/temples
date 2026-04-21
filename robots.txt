@@ -1,0 +1,6 @@
+# Разрешаем всем поисковикам индексировать сайт
+User-agent: *
+Disallow:
+
+# Указываем путь к карте сайта
+Sitemap: https://temples.fonolog.ru/sitemap.xml
