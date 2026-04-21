@@ -19,6 +19,7 @@ header {
   right: 7%;
   top:7%;
   opacity: 0.3;
+  z-index: 999;
 }
 .burger span {
   display: block;
