@@ -14,10 +14,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
+  <!-- excursion -->
+  <url>
+    <loc>https://temples.fonolog.ru/excursion</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Страница 404 (не обязательно индексировать) -->
   <url>
-    <loc>https://example.com/404</loc>
+    <loc>https://temples.fonolog.ru/404</loc>
     <changefreq>never</changefreq>
     <priority>0.1</priority>
   </url>

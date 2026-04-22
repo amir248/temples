@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const items = [
         {text:'Главная', href:'/'},
         {text:'Отдых СПб', href:'/article'},
-        {text:'Карта', href:'/#map'}
+        {text:'Карта', href:'/#map'},
+        {text: 'Экскурсия', href:'/excursion'}
     ];
 
     items.forEach(item => {
@@ -45,3 +46,5 @@ document.addEventListener('DOMContentLoaded', () => {
         menu.classList.toggle('active');
     });
 });
+
+document.querySelector("#year").innerHTML= new Date().getFullYear();
